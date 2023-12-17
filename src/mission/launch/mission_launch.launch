@@ -1,0 +1,5 @@
+<launch>
+    <node name="mission" pkg="mission" type="mission.py" output="screen" respawn="true"/>
+    <node name="comm_motor" pkg="communication" type="comm_motor.py" output="screen" respawn="true"/>
+    <node name="vision" pkg="vision" type="vision.py" output="screen" respawn="true"/>
+</launch>
